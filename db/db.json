@@ -1,0 +1,340 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "패트",
+      "password": "hashed_password1"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "자유게시판"
+    },
+    {
+      "id": 2,
+      "name": "고양이게시판"
+    },
+    {
+      "id": 3,
+      "name": "강아지게시판"
+    },
+    {
+      "name": "정보 게시판",
+      "id": 4
+    },
+    {
+      "name": "맛집게시판",
+      "id": 5
+    },
+    {
+      "name": "취준게시판",
+      "id": 6
+    },
+    {
+      "name": "대학원 게시판",
+      "id": 7
+    },
+    {
+      "name": "홍보게시판",
+      "id": 8
+    },
+    {
+      "name": "장터게시판",
+      "id": 9
+    },
+    {
+      "name": "동아리 학회 게시판",
+      "id": 10
+    },
+    {
+      "name": "졸업생게시판",
+      "id": 11
+    },
+    {
+      "name": "패트와매트 게시판",
+      "id": 12
+    },
+    {
+      "name": "닥트리오 게시판",
+      "id": 13
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "categoryId": 1,
+      "title": "솔직히 모바일 프로그래밍이 재밌으면 개추",
+      "content": "일단나부터",
+      "upvotes": 12,
+      "downvotes": 2,
+      "createdAt": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "categoryId": 1,
+      "title": "자유게시판 두번째 글",
+      "content": "와 진짜 플러터 개빡셈",
+      "upvotes": 100,
+      "downvotes": 2,
+      "createdAt": "2023-01-01T00:00:00Z"
+    },
+    {
+      "title": "인생",
+      "content": "너무힘들어요",
+      "id": 3
+    },
+    {
+      "title": "고양이 ",
+      "content": "너무조아 ",
+      "id": 4
+    },
+    {
+      "title": "db랑 작용이 안됨",
+      "content": "진짜임 ",
+      "id": 5
+    },
+    {
+      "title": "123",
+      "content": "13",
+      "id": 6
+    },
+    {
+      "title": "1",
+      "content": "1",
+      "id": 7
+    },
+    {
+      "title": "11",
+      "content": "11",
+      "userId": 1,
+      "categoryId": 1,
+      "upvotes": 2,
+      "downvotes": 1,
+      "createdAt": "2023-12-20T00:24:09.527",
+      "id": 8
+    },
+    {
+      "title": "123",
+      "content": "123",
+      "userId": 1,
+      "categoryId": 1,
+      "upvotes": 3,
+      "downvotes": 0,
+      "createdAt": "2023-12-20T01:17:04.918",
+      "id": 9
+    },
+    {
+      "title": "포스팅 실험 1 ",
+      "content": "포스팅 실험... 제발 성공해라 ",
+      "userId": 1,
+      "categoryId": 1,
+      "upvotes": 0,
+      "downvotes": 0,
+      "createdAt": "2023-12-20T01:21:12.484",
+      "id": 10
+    },
+    {
+      "title": "고양이 글 왜 아무도 안씀? ",
+      "content": "차별임? ",
+      "userId": 1,
+      "categoryId": 1,
+      "upvotes": 0,
+      "downvotes": 0,
+      "createdAt": "2023-12-20T01:22:10.632",
+      "id": 11
+    },
+    {
+      "title": "아니 왜 고양이게시판에 글을 썼는데 ",
+      "content": "자유게시판에감? ",
+      "userId": 1,
+      "categoryId": 1,
+      "upvotes": 0,
+      "downvotes": 0,
+      "createdAt": "2023-12-20T01:27:10.080",
+      "id": 12
+    },
+    {
+      "title": "자 이제 글을 딱 써 ",
+      "content": "이렇게 따악 ",
+      "userId": 1,
+      "categoryId": 1,
+      "upvotes": 0,
+      "downvotes": 0,
+      "createdAt": "2023-12-20T01:36:29.440",
+      "id": 13
+    },
+    {
+      "title": "고양이 평가 좀 ",
+      "content": "고양이 귀엽지 않나요??",
+      "userId": 1,
+      "categoryId": 1,
+      "upvotes": 0,
+      "downvotes": 0,
+      "createdAt": "2023-12-22T23:32:34.297",
+      "id": 14
+    },
+    {
+      "title": "test1234",
+      "content": "아무거나 적기",
+      "userId": 1,
+      "categoryId": 2,
+      "upvotes": 10,
+      "downvotes": 5,
+      "createdAt": "2023-12-23T06:00:43.325",
+      "id": 15
+    },
+    {
+      "title": "최*혁님의 고양이 종이 뭔가요?",
+      "content": "그냥 궁금해서요",
+      "userId": 1,
+      "categoryId": 2,
+      "upvotes": 0,
+      "downvotes": 0,
+      "createdAt": "2023-12-23T23:58:36.522",
+      "id": 16
+    },
+    {
+      "title": "강아지 게시판도 만들었어요!!",
+      "content": "",
+      "userId": 1,
+      "categoryId": 3,
+      "upvotes": 0,
+      "downvotes": 0,
+      "createdAt": "2023-12-24T06:10:15.275",
+      "id": 17
+    },
+    {
+      "title": "연대 정문 맛집",
+      "content": "양식으로 추천해주세요!",
+      "userId": 1,
+      "categoryId": 5,
+      "upvotes": 0,
+      "downvotes": 0,
+      "createdAt": "2023-12-24T06:59:37.339",
+      "id": 18
+    },
+    {
+      "title": "고양이",
+      "content": "귀여워",
+      "userId": 1,
+      "categoryId": 2,
+      "upvotes": 0,
+      "downvotes": 0,
+      "createdAt": "2023-12-24T14:58:00.921",
+      "id": 19
+    },
+    {
+      "title": "응정에서 닥트리오는 누구인가요?",
+      "content": "닥트리오는 이*하, 이*현, 권*현 님입니다",
+      "userId": 1,
+      "categoryId": 13,
+      "upvotes": 20,
+      "downvotes": 3,
+      "createdAt": "2023-12-24T16:31:24.610",
+      "id": 20
+    }
+  ],
+  "replies": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 1,
+      "content": "개추 ㅋㅋ",
+      "createdAt": "2023-01-02T00:00:00Z"
+    },
+    {
+      "postId": 1,
+      "userId": 1,
+      "content": "매트도 개추 ㅋㅋ",
+      "createdAt": "2023-12-20T01:17:36.559",
+      "id": 2
+    },
+    {
+      "postId": 8,
+      "userId": 1,
+      "content": "312",
+      "createdAt": "2023-12-20T01:18:07.462",
+      "id": 3
+    },
+    {
+      "postId": 10,
+      "userId": 1,
+      "content": "이거 보니까 R 눌러서 재시작 해줘야 뜸",
+      "createdAt": "2023-12-20T01:21:41.438",
+      "id": 4
+    },
+    {
+      "postId": 10,
+      "userId": 1,
+      "content": "그래그래 submit reply 랑 reply 보이기가 성공한건 사실이야",
+      "createdAt": "2023-12-20T01:35:44.513",
+      "id": 5
+    },
+    {
+      "postId": 10,
+      "userId": 1,
+      "content": "성공했냐? ",
+      "createdAt": "2023-12-20T01:36:12.937",
+      "id": 6
+    },
+    {
+      "postId": 10,
+      "userId": 1,
+      "content": "이거거든~~~~~ 쭉 ㅋㅋ",
+      "createdAt": "2023-12-20T01:36:18.526",
+      "id": 7
+    },
+    {
+      "postId": 13,
+      "userId": 1,
+      "content": "ㅋㅋ 이거지 ",
+      "createdAt": "2023-12-20T01:36:46.195",
+      "id": 8
+    },
+    {
+      "postId": 13,
+      "userId": 1,
+      "content": "캬 ",
+      "createdAt": "2023-12-20T01:36:48.373",
+      "id": 9
+    },
+    {
+      "postId": 14,
+      "userId": 1,
+      "content": "오 무슨 종인가요??",
+      "createdAt": "2023-12-22T23:43:44.641",
+      "id": 10
+    },
+    {
+      "postId": 16,
+      "userId": 1,
+      "content": "러시안 불루입니다",
+      "createdAt": "2023-12-23T23:58:58.184",
+      "id": 11
+    },
+    {
+      "postId": 17,
+      "userId": 1,
+      "content": "고양이 게시판만 있어서 아쉬웠는데 이제 강아지 게시판도 생겼군요!",
+      "createdAt": "2023-12-24T06:10:47.469",
+      "id": 12
+    },
+    {
+      "postId": 20,
+      "userId": 1,
+      "content": "그러면 패트와 매트는 누구에요?",
+      "createdAt": "2023-12-24T16:31:40.669",
+      "id": 13
+    },
+    {
+      "postId": 20,
+      "userId": 1,
+      "content": "패트와 매트는 문*현, 최*혁입니다",
+      "createdAt": "2023-12-24T16:31:55.074",
+      "id": 14
+    }
+  ]
+}
